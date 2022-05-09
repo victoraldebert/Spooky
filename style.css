@@ -69,6 +69,72 @@ section .container .middle-content > .left {
     justify-content: center;
 }
 
-section .container .middle-content > .right {  
-    background-color: red;
+section .container .middle-content .right {
+    /* background-color: red;   */
+}
+
+section .container .middle-content .bloc-text span {
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+section .container .middle-content .bloc-text h1 {
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+    font-size: 68px;
+    line-height: 109%;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    margin: 14px 0;
+}
+
+
+section .container .middle-content .bloc-text p {
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+section .container .middle-content .bloc-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    margin-top: 50px;
+}
+
+section .container .middle-content .bloc-button .book-now{
+    padding: 10px 20px;
+    background-image: url(Rectangle\ 9.png);
+    background-size: 100% 100%;
+    width: 170px;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container .middle-content .bloc-button .book-now a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #303056;
+}
+
+section .container .middle-content .bloc-button .track-record a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
 }
